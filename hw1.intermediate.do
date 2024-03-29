@@ -9,7 +9,7 @@ qui {
 		from results: reversed process!!
 	}
 	if c(os)=="Windows" { //methods
-	    local workdir "`c(pwd)'\"
+	    global workdir "`c(pwd)'\"
 	}
 	else {
 	    global workdir "`c(pwd)'/"
